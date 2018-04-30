@@ -7,13 +7,15 @@ import { HttpClientModule } from '@angular/common/http';
 import { NgZorroAntdModule } from 'ng-zorro-antd';
 import { AppRoutingModule } from './app.root'
 import { AppComponent } from './app.component';
-import { LoginComponent } from '../login/login.component'
+import { LoginComponent } from '../login/login.component';
+import { LayoutCompomemt } from '../layout/layout.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponent
+    LoginComponent,
+    LayoutCompomemt
   ],
   imports: [
     BrowserModule,
