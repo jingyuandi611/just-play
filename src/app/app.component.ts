@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router/src/router';
+import { Router, ActivatedRoute } from '@angular/router';
 // import { AppRouterModule } from './app.root';
 
 @Component({
@@ -10,9 +10,7 @@ import { Router } from '@angular/router/src/router';
 })
 export class AppComponent {
   title = 'app';
-  clickToLogin() {
-    
-  }
+  
   ngOnInit():void {
 
   }
